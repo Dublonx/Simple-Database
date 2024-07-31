@@ -1,0 +1,100 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  background-color: beige;
+}
+
+/* Simple Database */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  border: 1px solid;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px #222;
+  
+  background-color: whitesmoke;
+}
+
+.container h2 {
+  margin-top: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  padding: 10px;
+  border: 1px solid;
+  outline: none;
+  border-radius: 5px;
+  
+  margin-bottom: 10px;
+}
+
+.container input[type="male"],
+.container input[type="female"] {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.container input[type="button"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+  outline: none;
+  border-radius: 5px;
+  
+  margin-top: 10px;
+  background: transparent;
+  transition: .2s ease;
+}
+
+.container input[type="button"]:hover {
+  background: #999;
+  border: 1px solid;
+}
+
+.record {
+  border: 1px solid;
+  margin-top: 20px;
+  padding: 10px;
+  
+  border-radius: 5px;
+}
+
+.record h2 {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.record table {
+  /* border-collapse: collapse; */
+  width: 100%;
+}
+
+.record th {
+  font-size: 12px;
+  font-weight: normal;
+  
+  border: 1px solid;
+}
+
+.record #dataTable {
+  font-size: 10px;
+  padding: 3px;
+  border: 1px solid;
+}
